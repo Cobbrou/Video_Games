@@ -143,7 +143,8 @@ section#main .header h2 {
 
 .mc_img{
     float: left;
-    padding: 50px;
+    padding: 100px;
+    padding-top: 150px;
     max-width: 50%;
     height: auto;
     margin-top: auto;

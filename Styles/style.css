@@ -146,11 +146,12 @@ section#main .header h2 {
 /* ENGINES Section : engines.html */
 
 .single_content{
-    width: 320px;
+    width: 350px;
     float: left;
     text-align: center;
-    margin-top: 60px;
-    margin-right: 73px;
+    margin-top: 180px;
+    margin-right: 115px;
+    padding-left: 80px;
 }
 
 .single_content h2{
@@ -163,6 +164,10 @@ section#main .header h2 {
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
+}
+
+.single_content img{
+    max-width: 80%;
 }
 
 /* RTX Section : rtx.html */

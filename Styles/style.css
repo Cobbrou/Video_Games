@@ -133,11 +133,17 @@ section#main .header h2 {
 .mc_content {
     width: 540px;
     float: left;
+    padding-left: 250px;
     margin-top: 66px;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
 }
 
 .mc_img{
-    float: right;
+    float: left;
+    padding: 50px;
     max-width: 50%;
     height: auto;
     margin-top: auto;
@@ -180,6 +186,8 @@ section#main .header h2 {
     /* width: 540px; */
     float: left;
     margin-top: 5px;
+    height: 50vh;
+    width: 90vw;
 }
 
 .rtx_content h2{
@@ -221,4 +229,7 @@ section#main .header h2 {
 
 .dlss_content p {
     margin-left: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
 }

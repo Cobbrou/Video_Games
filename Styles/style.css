@@ -1,0 +1,249 @@
+/* MAIN Section */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 500;
+}
+
+h2{
+    color: #222222;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+p{
+    color: #848484;
+    font-size: 16px;
+    line-height: 35px;
+}
+img{
+    max-width: 75%;
+    height: auto;
+}
+.row{
+    margin: 0 10px;
+    width: 1200px;
+    overflow: hidden;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* FIRST SECTION */
+
+#header{
+    /* border-top: 10px solid #4ecc6d; */
+    background: rgba(0, 0, 0, 0) url("../IMG/jeux-video-retro-nes-snes-sega-genesis-nintendo-n64-playstation-gamecube.png") repeat scroll 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header_content{
+    padding-top: 150px;
+    padding-left: 110px;
+}
+
+.header_content h1{
+    margin-bottom: 20px;
+}
+
+.header_content p{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.return_img {
+    border: none; /* Remove borders */
+    cursor: pointer; /* Mouse pointer on hover */
+    float: left;
+    width: 100px;
+    height: auto;
+    margin-top: auto;
+}
+
+.text_content {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_content p {
+    font-size: 3rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+}
+.text_content p span.typed-text {
+    font-weight: normal;
+    color: #dd7732;
+}
+.text_content p span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+.text_content p span.cursor.typing {
+    animation: none;
+}
+@keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+}
+
+.flex-container {
+    display: flex;
+    
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    flex-flow: row wrap;
+    
+    justify-content: space-around;
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 350px;
+    height: 150px;
+    margin-top: 5px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    cursor: pointer;
+  }
+  .flex-item:hover {
+    transform: scale(1.5);
+    transition: 0.2s linear transform;
+  }
+
+/* FIRST VIDEO GAME SECTION */
+
+/* #main_content{
+    background-color: #848484;
+} */
+
+.mc_content {
+    width: 540px;
+    float: left;
+    margin-top: 66px;
+}
+
+.mc_img{
+    float: right;
+    max-width: 50%;
+    height: auto;
+    margin-top: auto;
+}
+
+/* ENGINES Section */
+
+.single_content{
+    width: 320px;
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 73px;
+}
+
+.single_content h2{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.single_content p{
+    color: #848484;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+/* RTX Section */
+
+#rtx_section {
+    background-color: #222222;
+}
+
+.rtx_content {
+    /* width: 540px; */
+    float: left;
+    margin-top: 5px;
+}
+
+.rtx_content h2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.rtx_content p{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.cocoen {
+    border: 5px solid #fff;
+}
+
+/* DLSS Section */
+
+.dlss_section {
+
+}
+
+.dlss_content h2{
+    margin-top: 20px;
+}
+
+.dlss_content img{
+    float: left;
+    max-width: 50%;
+    height: auto;
+    margin-top: auto;
+}
+
+.dlss_content p {
+    margin-left: 20px;
+}

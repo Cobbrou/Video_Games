@@ -1,4 +1,4 @@
-# WHAT'S APP CLONE
+# VIDEO GAMES PRESENTATION
 A website for school in Vanilla HTML on web.
 [Preview](https://cobbrou.github.io/Video_Games/)
 

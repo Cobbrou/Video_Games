@@ -1,4 +1,4 @@
-/* FIRST SECTION */
+/* ! FIRST SECTION */
 
 body {
     margin: 0;
@@ -128,7 +128,7 @@ section#main .header h2 {
     transition: 0.2s linear transform;
   }
 
-/* FIRST VIDEO GAME SECTION : first.html */
+/* ! FIRST VIDEO GAME SECTION : first.html */
 
 /* #main_content{
     background-color: #848484;
@@ -149,12 +149,14 @@ section#main .header h2 {
     float: left;
     padding: 100px;
     padding-top: 150px;
-    max-width: 50%;
-    height: auto;
     margin-top: auto;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+
 }
 
-/* ENGINES Section : engines.html */
+/* ! ENGINES Section : engines.html */
 
 .single_content{
     width: 350px;
@@ -184,33 +186,20 @@ section#main .header h2 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-  }
-  
-#myImg:hover {
-  opacity: 0.7;
 }
-  
+
 .modal {
     display: none;
-    /* Hidden by default */
     position: fixed;
-    /* Stay in place */
     z-index: 1;
-    /* Sit on top */
     padding-top: 100px;
-    /* Location of the box */
     left: 0;
     top: 0;
     width: 100%;
-    /* Full width */
     height: 100%;
-    /* Full height */
     overflow: auto;
-    /* Enable scroll if needed */
     background-color: rgb(0, 0, 0);
-    /* Fallback color */
     background-color: rgba(0, 0, 0, 0.9);
-    /* Black w/ opacity */
 }
   
 .modal-content {
@@ -269,10 +258,46 @@ section#main .header h2 {
     }
 }
 
-/* RTX Section : rtx.html */
+/* ! VR Section : vr.html */
+.video-background {
+    background: #000;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -99;
+}
+
+.video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.vr_content {
+    background: rgba(49, 49, 49, 0.5);
+    border-radius: 2rem;
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vr_content p{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-left: 5px;
+}
+
+/* ! RTX Section : rtx.html */
 
 #rtx_section {
-    background-color: #222222;
+
 }
 
 .rtx_content {
@@ -303,7 +328,7 @@ section#main .header h2 {
     border: 5px solid #fff;
 }
 
-/* DLSS Section : dlss.html */
+/* ! DLSS Section : dlss.html */
 
 .dlss_section {
 
@@ -325,4 +350,35 @@ section#main .header h2 {
     font-size: 22px;
     font-weight: 400;
     line-height: 25px;
+}
+
+/* ! Sources Section : sources.html */
+
+.sources_content h1{
+    text-align: center;
+    padding: 5%;
+}
+
+.sources_contened {
+    background: #313131;
+    border-radius: 2rem;
+    height: 15rem;
+    width: 46rem;
+    line-height: 11px;
+    margin-left: 30%;
+}
+
+.sources_contened {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.sources_contened a{
+    color: #1f6eaa;
+    text-decoration: none;
+}
+
+.sources_contened a:hover{
+    color: #508bb8;
+    text-decoration: underline;
 }

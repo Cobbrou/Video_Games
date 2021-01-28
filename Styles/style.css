@@ -135,25 +135,22 @@ section#main .header h2 {
 } */
 
 .mc_content {
-    width: 540px;
-    float: left;
-    padding-left: 250px;
-    margin-top: 66px;
-    margin-left: 20px;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
     font-size: 22px;
     font-weight: 400;
     line-height: 25px;
 }
 
 .mc_img{
-    float: left;
-    padding: 100px;
-    padding-top: 150px;
-    margin-top: auto;
-    width: 100%;
-    max-width: 400px;
+    max-width: 50%;
     height: auto;
-
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
 }
 
 /* ! ENGINES Section : engines.html */
@@ -259,6 +256,7 @@ section#main .header h2 {
 }
 
 /* ! VR Section : vr.html */
+
 .video-background {
     background: #000;
     position: fixed;
@@ -278,7 +276,7 @@ section#main .header h2 {
 .vr_content {
     background: rgba(49, 49, 49, 0.5);
     border-radius: 2rem;
-    height: 300px;
+    height: 280px;
     width: 600px;
     position: absolute;
     left: 50%;
@@ -334,19 +332,20 @@ section#main .header h2 {
 
 }
 
-.dlss_content h2{
-    margin-top: 20px;
-}
-
 .dlss_content img{
-    float: left;
     max-width: 50%;
     height: auto;
-    margin-top: auto;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
 }
 
 .dlss_content p {
-    margin-left: 20px;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
     font-size: 22px;
     font-weight: 400;
     line-height: 25px;
@@ -356,7 +355,10 @@ section#main .header h2 {
 
 .sources_content h1{
     text-align: center;
-    padding: 5%;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
 }
 
 .sources_contened {
@@ -364,13 +366,15 @@ section#main .header h2 {
     border-radius: 2rem;
     height: 15rem;
     width: 46rem;
-    line-height: 11px;
-    margin-left: 30%;
+    line-height: 12px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.sources_contened {
-    padding-top: 30px;
-    padding-left: 50px;
+.sources_contened p{
+    margin-left: 50px;
 }
 
 .sources_contened a{
